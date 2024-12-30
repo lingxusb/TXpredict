@@ -11,3 +11,7 @@ We have provided [Colab notebooks](https://colab.research.google.com/drive/1Kd-Q
 - The only required inputs are genome sequence file (.fna or .fasta) and the annotation file (.gtf, .gff or .gff3). Please check our [example data](https://github.com/lingxusb/TXpredict/tree/main/example_data)
 - Please connect to a GPU instance (e.g. T4, Runtime -> Change runtime type -> T4 GPU).
 - It takes ~20min to predict transcriptome for a genome with 4k genes.
+
+### References
+- ESM2: https://github.com/facebookresearch/esm
+- Predicting microbial transcriptome using genome sequence
