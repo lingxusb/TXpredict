@@ -8,6 +8,6 @@ Our transcriptome prediciton models are available from [Huggingface](https://hug
 
 ### Colab notebooks
 We have provided [Colab notebooks](https://colab.research.google.com/drive/1Kd-QIwTgESIg_62b4rstuT1KO-NMqtPL?usp=sharing) for transcriptome prediction in the web browser. 
-- The only required inputs are genome sequence file (.fna or .fasta) and the annotation file (.gtf, .gff or .gff3).
+- The only required inputs are genome sequence file (.fna or .fasta) and the annotation file (.gtf, .gff or .gff3). Please check our [example data](https://github.com/lingxusb/TXpredict/tree/main/example_data)
 - Please connect to a GPU instance (e.g. T4, Runtime -> Change runtime type -> T4 GPU).
 - It takes ~20min to predict transcriptome for a genome with 4k genes.
