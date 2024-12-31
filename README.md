@@ -14,4 +14,4 @@ We have provided [Colab notebooks](https://colab.research.google.com/drive/1Kd-Q
 
 ### References
 - ESM2: https://github.com/facebookresearch/esm
-- Predicting microbial transcriptome using genome sequence
+- [Predicting microbial transcriptome using genome sequence](https://www.biorxiv.org/content/10.1101/2024.12.30.630741v1)
