@@ -12,6 +12,9 @@ We have provided [Colab notebooks](https://colab.research.google.com/drive/1Kd-Q
 - Please connect to a GPU instance (e.g. T4, Runtime -> Change runtime type -> T4 GPU).
 - It takes ~20min to predict transcriptome for a genome with 4k genes.
 
+### Acknowledgement
+We deeply appreciate the [experimental works and datasets](https://github.com/lingxusb/TXpredict/blob/main/Acknowledgement.md) that make our work possible.
+
 ### References
 - ESM2: https://github.com/facebookresearch/esm
 - [Predicting microbial transcriptome using genome sequence](https://www.biorxiv.org/content/10.1101/2024.12.30.630741v1)
