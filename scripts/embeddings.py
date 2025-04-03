@@ -34,9 +34,9 @@ from utils import get_protein_sequences
 
 def main():
     parser = argparse.ArgumentParser(description="Compute ESM-2 embeddings + metadata from FASTA/GFF pairs.")
-    parser.add_argument("--input_dir", required=True, help="Path to input directory with subfolders.")
-    parser.add_argument("--output_dir", required=True, help="Path to output directory.")
-    parser.add_argument("--length_threshold", type=int, default=1500, help="Maximum protein length to include.")
+    parser.add_argument("-i", "--input_dir", required=True, help="Path to input directory with subfolders.")
+    parser.add_argument("-o", "--output_dir", required=True, help="Path to output directory.")
+    parser.add_argument("-l", "--length_threshold", type=int, default=1500, help="Maximum protein length to include.")
     args = parser.parse_args()
 
     input_dir = args.input_dir
