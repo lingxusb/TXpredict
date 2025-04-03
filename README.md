@@ -99,6 +99,30 @@ For each processed set of input files, the script generates:
 - `{NAME}_predictions.csv`: A CSV file with two columns:
   - `Gene_Name`: The name of the gene
   - `Prediction`: The model's prediction value
+ 
+## Jupyter notebooks
+### Data preprocessing
+`01_data_preprocessing.ipynb` handles the preprocessing steps needed to prepare data for the TXpredict model.
+The notebook performs three main tasks:
+
+1. **Calculating normalized gene expression** - Processes RNA-seq count data to compute TPM (Transcripts Per Million) values with z-score normalization.
+2. **Generating ESM embeddings** - Uses the ESM-2 model to create protein embeddings from genome annotation files.
+3. **Preparing training data** - Combines embedding data with expression data to create the final training dataset.
+
+The notebook produces several output files including:
+- `{strain}_filtered_log_tpm.csv` - Normalized expression data
+- `{strain}_filtered_embeddings.txt` - Protein embeddings for model input
+- `{strain}_filtered_meta.txt` - Metadata for each protein
+
+### Model training
+`02_model_training.ipynb` demonstrates how to train the TXpredict model for gene expression prediction. The notebook covers the complete workflow:
+
+1. **Data loading** - Loads preprocessed embeddings and metadata from the previous preprocessing step
+2. **Model definition** - Implements the model to learn from sequence embeddings
+3. **Training process** - Trains the model with evaluation metrics
+4. **Model saving** - Saves the trained model for later use in prediction
+
+
 
 
 ## Colab notebooks
