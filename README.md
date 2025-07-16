@@ -131,8 +131,10 @@ We have provided [Colab notebooks](https://colab.research.google.com/drive/1Kd-Q
 - Please connect to a GPU instance (e.g. T4, Runtime -> Change runtime type -> T4 GPU).
 - It takes ~20min to predict transcriptome for a genome with 4k genes.
 
-## Trained models
+## Trained models and datasets
 Our transcriptome prediciton models are available from [Huggingface](https://huggingface.co/lingxusb/TXpredict/tree/main).
+
+TXpredictDB can be accessed from [Huggingface](https://huggingface.co/lingxusb/TXpredict/blob/main/TXpredictDB_v1.2.csv).
 
 ## Acknowledgement
 We deeply appreciate the [experimental works and datasets](https://github.com/lingxusb/TXpredict/blob/main/Acknowledgement.md) that make our work possible.
