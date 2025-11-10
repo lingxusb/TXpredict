@@ -1,5 +1,6 @@
 # TXpredict：predicting microbial transcriptome using genome sequence
-![github_v2](https://github.com/user-attachments/assets/89c81779-19f0-4184-a526-36ca36188abf)
+<img width="4148" height="3038" alt="github_v2" src="https://github.com/user-attachments/assets/438343ee-dbc0-4e8c-b8e0-57aa7641ba5e" />
+
 
 
 We present TXpredict, a transcriptome prediction tool that generalizes to novel microbial genomes. By leveraging information learned from a large protein language model (ESM2), TXpredict achieves an average Spearman correlation of 0.53 and 0.62 in predicting gene expression for new bacterial and fungal genomes. We further extend this framework to predict transcriptomes for 2,685 additional microbial genomes spanning 1,744 genera, a large proportion of which remain uncharacterized at the transcriptional level. Our analysis highlights conserved and divergent transcriptional programs across understudied genera, providing a powerful resource for uncovering microbial adaptation strategies and metabolic potential across the tree of life.
